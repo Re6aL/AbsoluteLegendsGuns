@@ -173,7 +173,7 @@
 					<hasStandardCommand>true</hasStandardCommand>
 					<defaultProjectile>Bullet_50AE_FMJ</defaultProjectile>
 					<warmupTime>0.47</warmupTime>
-					<range>18</range>
+					<range>22</range>
 					<soundCast>Shot_AL_Deagle</soundCast>
 					<soundCastTail>GunTail_Light</soundCastTail>
 					<muzzleFlashScale>10</muzzleFlashScale>
