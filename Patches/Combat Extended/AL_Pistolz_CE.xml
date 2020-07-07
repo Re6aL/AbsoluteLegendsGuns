@@ -31,7 +31,7 @@
 					<hasStandardCommand>true</hasStandardCommand>
 					<defaultProjectile>Bullet_357Magnum_FMJ</defaultProjectile>
 					<warmupTime>0.6</warmupTime>
-					<range>12</range>
+					<range>13</range>
 					<soundCast>Shot_AL_ColtPython</soundCast>
 					<soundCastTail>GunTail_Light</soundCastTail>
 					<muzzleFlashScale>9</muzzleFlashScale>
