@@ -40,7 +40,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>AL_Bullet_50_Pistol</defaultProjectile>
         <warmupTime>0.5</warmupTime>
-        <range>26</range>
+        <range>25</range>
         <soundCast>Shot_AL_Deagle</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -107,7 +107,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>AL_Bullet_50_Pistol</defaultProjectile>
         <warmupTime>0.4</warmupTime>
-        <range>28</range>
+        <range>28.5</range>
         <soundCast>Shot_AL_Deagle</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -146,7 +146,6 @@
     </graphicData>
     <soundInteract>Interact_AL_Makarov</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
@@ -173,7 +172,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>AL_Bullet_9MMMakarov</defaultProjectile>
         <warmupTime>0.3</warmupTime>
-        <range>25.9</range>
+        <range>24</range>
         <soundCast>Shot_AL_Makarov</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -239,7 +238,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>AL_Bullet_9MM_Pistol</defaultProjectile>
         <warmupTime>0.3</warmupTime>
-        <range>25.9</range>
+        <range>23</range>
         <soundCast>Shot_AL_Glock</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -305,7 +304,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>AL_Bullet_357_Revolver</defaultProjectile>
         <warmupTime>0.3</warmupTime>
-        <range>25.9</range>
+        <range>22</range>
         <soundCast>Shot_AL_ColtPython</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
