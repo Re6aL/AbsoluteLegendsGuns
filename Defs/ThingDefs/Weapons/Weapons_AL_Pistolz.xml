@@ -5,7 +5,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>AL_Gun_DesertEagle</defName>
-    <label>Desert Bird</label>
+    <label>Desert Bird handgun</label>
     <description>The Desert Eagle (sometimes shortened into the Deagle) is a semi-automatic handgun notable for chambering the largest centerfire cartridge of any magazine-fed, self-loading pistol. It is also (according to most sources) the most powerful magazine-fed semi-automatic commercial handgun, by virtue of the muzzle energy it can generate.</description>
     <graphicData>
       <texPath>Things/Weapons/DesertEagle</texPath>
@@ -71,7 +71,7 @@
 
   <ThingDef ParentName="BaseMakeableGun">
     <defName>AL_Gun_DesertEagleGold</defName>
-    <label>Golden Bird</label>
+    <label>Golden Bird handgun</label>
     <description>The Golden Desert Eagle. Rare and Rich. Gives Incredible style bonus to kills. Slightly better in most aspects. (mod dev: I will try to make mood buff to its owner because of awesomeness this item accumulates)</description>
     <graphicData>
       <texPath>Things/Weapons/DesertEagleGold</texPath>
@@ -138,7 +138,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>AL_Gun_Makar</defName>
-    <label>Makar</label>
+    <label>makarov pistol</label>
     <description>The Makarov pistol. Andryukha, pack your horses, we may have a criminal.</description>
     <graphicData>
       <texPath>Things/Weapons/MakarovPistol</texPath>
@@ -203,7 +203,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>AL_Gun_Glock</defName>
-    <label>Fast Pistol</label>
+    <label>fast pistol</label>
     <description>Quick and light. Not much power but the speed of 3 shot burst fire can save you some life.</description>
     <graphicData>
       <texPath>Things/Weapons/Glock</texPath>
@@ -269,7 +269,7 @@
 
  <ThingDef ParentName="BaseMakeableGun">
     <defName>AL_Gun_ColtPython</defName>
-    <label>Big Snek</label>
+    <label>python handgun</label>
     <description>The Colt Python, a .357 Magnum caliber revolver. Sometimes referred to as a "Combat Magnum". It is intended for the premium revolver market segment.</description>
     <graphicData>
       <texPath>Things/Weapons/Python</texPath>
@@ -335,8 +335,8 @@
 
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>AL_Gun_Luger</defName>
-    <label>Das Kaput</label>
-    <description>Luger description goes here.</description>
+    <label>führers handgun</label>
+    <description>Luger 45 is heavy. With difficult reloading mechanism and not very reliable shooting system. But Hell yea it cand send any living thing to Lucifer better than most.</description>
     <graphicData>
       <texPath>Things/Weapons/Luger</texPath>
       <graphicClass>Graphic_Single</graphicClass>
