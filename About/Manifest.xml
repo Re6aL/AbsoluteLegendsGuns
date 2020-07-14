@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>AbsoluteLegendsGuns</identifier>
+    <version>1.0.1</version>
+    <dependencies>
+    </dependencies>
+    <incompatibleWith>
+    </incompatibleWith>
+    <loadBefore>
+    </loadBefore>
+    <loadAfter>
+    </loadAfter>
+    <suggests>
+        <li>AbsoluteLegendsGuns</li> <!--  -->
+        <li>GlassDrumRifle-CE</li> <!--  -->
+    </suggests>
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri></manifestUri>
+    <downloadUri>https://github.com/re6al/AbsoluteLegendsGuns/</downloadUri>
+</Manifest>
