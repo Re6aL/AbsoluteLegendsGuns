@@ -84,8 +84,11 @@
         <Crafting>10</Crafting>
       </skillRequirements>
     </recipeMaker>
+    <weaponTags>
+      <li>GunHeavy</li>
+    </weaponTags>
     <statBases>
-      <WorkToMake>9000</WorkToMake>
+      <WorkToMake>10000</WorkToMake>
       <Mass>1.5</Mass>
       <AccuracyTouch>0.8</AccuracyTouch>
       <AccuracyShort>0.74</AccuracyShort>
@@ -160,7 +163,7 @@
       <AccuracyShort>0.72</AccuracyShort>
       <AccuracyMedium>0.40</AccuracyMedium>
       <AccuracyLong>0.30</AccuracyLong>
-      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.73</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>30</Steel>
@@ -171,7 +174,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>AL_Bullet_9MMMakarov</defaultProjectile>
-        <warmupTime>0.3</warmupTime>
+        <warmupTime>0.33</warmupTime>
         <range>24</range>
         <soundCast>Shot_AL_Makarov</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -237,6 +240,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>AL_Bullet_9MM_Pistol</defaultProjectile>
+        <burstShotCount>3</burstShotCount>
         <warmupTime>0.3</warmupTime>
         <range>23</range>
         <soundCast>Shot_AL_Glock</soundCast>
