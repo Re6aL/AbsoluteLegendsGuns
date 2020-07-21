@@ -245,7 +245,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>AL_Bullet_9MM_Pistol</defaultProjectile>
         <burstShotCount>3</burstShotCount>
-        <warmupTime>0.45</warmupTime>
+        <warmupTime>0.58</warmupTime>
         <range>23</range>
         <soundCast>Shot_AL_Glock</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
