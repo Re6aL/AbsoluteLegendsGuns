@@ -84,11 +84,15 @@
         <Crafting>10</Crafting>
       </skillRequirements>
     </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
       <li>GunHeavy</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>10000</WorkToMake>
+      <WorkToMake>9000</WorkToMake>
       <Mass>1.5</Mass>
       <AccuracyTouch>0.8</AccuracyTouch>
       <AccuracyShort>0.74</AccuracyShort>
@@ -229,7 +233,7 @@
       <AccuracyShort>0.73</AccuracyShort>
       <AccuracyMedium>0.42</AccuracyMedium>
       <AccuracyLong>0.32</AccuracyLong>
-      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.96</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>30</Steel>
@@ -241,7 +245,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>AL_Bullet_9MM_Pistol</defaultProjectile>
         <burstShotCount>3</burstShotCount>
-        <warmupTime>0.3</warmupTime>
+        <warmupTime>0.45</warmupTime>
         <range>23</range>
         <soundCast>Shot_AL_Glock</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
