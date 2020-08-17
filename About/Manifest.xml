@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>AbsoluteLegendsGuns</identifier>
-    <version>1.0.0.3/version>
+    <version>1.0.0.3</version>
     <suggests>
     	<li>AbsoluteLegendsHair</li>
         <li>AbsoluteLegendsGuns</li> <!--  -->
