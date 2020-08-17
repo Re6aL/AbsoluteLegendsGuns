@@ -3,11 +3,12 @@
     <identifier>AbsoluteLegendsGuns</identifier>
     <version>1.0.0.3</version>
     <suggests>
-    	<li>AbsoluteLegendsHair</li>
-        <li>AbsoluteLegendsGuns</li> <!--  -->
-        <li>GlassDrumRifle-CE</li> <!--  -->
+    	<li>AbsoluteLegendsGuns-CE</li>
+        <li>AbsoluteLegendsHair</li>
+        <li>GlassDrumRifle-CE</li>
+        <li>AbsoluteLegendsRifles</li> <!--  -->
     </suggests>
     <showCrossPromotions>true</showCrossPromotions>
-    <manifestUri></manifestUri>
+    <manifestUri>https://raw.githubusercontent.com/Re6aL/AbsoluteLegendsGuns/master/About/Manifest.xml</manifestUri>
     <downloadUri>https://github.com/re6al/AbsoluteLegendsGuns/</downloadUri>
 </Manifest>
