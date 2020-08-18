@@ -2,13 +2,19 @@
 <Manifest>
     <identifier>AbsoluteLegendsGuns</identifier>
     <version>1.0.0.3</version>
+    <dependencies>
+    </dependencies>
+    <incompatibleWith>
+    </incompatibleWith>
+    <loadBefore>
+    </loadBefore>
+    <loadAfter>
+    </loadAfter>
     <suggests>
-    	<li>AbsoluteLegendsGuns-CE</li>
-        <li>AbsoluteLegendsHair</li>
-        <li>GlassDrumRifle-CE</li>
-        <li>AbsoluteLegendsRifles</li> <!--  -->
+        <li>2162632774</li> <!-- ALG CE -->
+        <li>2195744587</li> <!-- ALHair -->
     </suggests>
     <showCrossPromotions>true</showCrossPromotions>
     <manifestUri>https://raw.githubusercontent.com/Re6aL/AbsoluteLegendsGuns/master/About/Manifest.xml</manifestUri>
-    <downloadUri>https://github.com/re6al/AbsoluteLegendsGuns/</downloadUri>
+    <downloadUri>https://github.com/Re6aL/AbsoluteLegendsGuns.git</downloadUri>
 </Manifest>
