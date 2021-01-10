@@ -153,13 +153,11 @@
     </graphicData>
     <soundInteract>Interact_AL_Makarov</soundInteract>
     <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <weaponTags>
-      <li>SimpleGun</li>
-    </weaponTags>
     <statBases>
       <WorkToMake>5000</WorkToMake>
       <Mass>1.2</Mass>
@@ -223,9 +221,6 @@
         <Crafting>4</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <weaponTags>
-      <li>SimpleGun</li>
-    </weaponTags>
     <statBases>
       <WorkToMake>5000</WorkToMake>
       <Mass>1.2</Mass>
@@ -294,7 +289,6 @@
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
-      <li>SimpleGun</li>
       <li>Revolver</li>
     </weaponTags>
     <costList>
@@ -302,6 +296,7 @@
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
@@ -356,9 +351,6 @@
         <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <weaponTags>
-      <li>SimpleGun</li>
-    </weaponTags>
     <statBases>
       <WorkToMake>7000</WorkToMake>
       <Mass>1</Mass>
