@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Desert Eagle -->
+
+  <AL_Gun_DesertEagle.label>Пустынный Орёл</AL_Gun_DesertEagle.label>
+  <AL_Gun_DesertEagle.description>Бешано мощный пистолет. Любимое оружие африканских пиратов</AL_Gun_DesertEagle.description>
+  <AL_Gun_DesertEagle.tools.0.label>grip</AL_Gun_DesertEagle.tools.0.label>
+  <AL_Gun_DesertEagle.tools.1.label>barrel</AL_Gun_DesertEagle.tools.1.label>
+
+
+  <!-- Desert Eagle Gold -->
+
+  <AL_Gun_DesertEagleGold.label>Золотой Пустынный Орёл</AL_Gun_DesertEagleGold.label>
+  <AL_Gun_DesertEagleGold.description>Просто охеренный пистолет, лучше оригинала по всем параметрам. Стиль убивает.</AL_Gun_DesertEagleGold.description>
+  <AL_Gun_DesertEagleGold.tools.0.label>grip</AL_Gun_DesertEagleGold.tools.0.label>
+  <AL_Gun_DesertEagleGold.tools.1.label>barrel</AL_Gun_DesertEagleGold.tools.1.label>
+
+
+  <!-- Makarov -->
+
+  <AL_Gun_Makar.label>Макаров</AL_Gun_Makar.label>
+  <AL_Gun_Makar.description>Андрюха, по коням, у нас возможно криминал.</AL_Gun_Makar.description>
+  <AL_Gun_Makar.tools.0.label>grip</AL_Gun_Makar.tools.0.label>
+  <AL_Gun_Makar.tools.1.label>barrel</AL_Gun_Makar.tools.1.label>
+
+
+  <!-- Glock 17 -->
+
+  <AL_Gun_Glock.label>быстрострел</AL_Gun_Glock.label>
+  <AL_Gun_Glock.description>Быстрый и лёгкий. Не такой созный но быстрый, три выстрела могут спасти пару жизней.</AL_Gun_Glock.description>
+  <AL_Gun_Glock.tools.0.label>grip</AL_Gun_Glock.tools.0.label>
+  <AL_Gun_Glock.tools.1.label>barrel</AL_Gun_Glock.tools.1.label>
+
+
+  <!-- Python -->
+
+  <AL_Gun_ColtPython.label>Питон кольт</AL_Gun_ColtPython.label>
+  <AL_Gun_ColtPython.description>Кольт Питон. Револьвер довольно мощный.</AL_Gun_ColtPython.description>
+  <AL_Gun_ColtPython.tools.0.label>grip</AL_Gun_ColtPython.tools.0.label>
+  <AL_Gun_ColtPython.tools.1.label>barrel</AL_Gun_ColtPython.tools.1.label>
+
+
+  <!-- Luger -->
+
+  <AL_Gun_Luger.label>пистолет фюрера</AL_Gun_Luger.label>
+  <AL_Gun_Luger.description>Люгер 45 трудно перезаряжать, но эта херота может отправить вас в ад.</AL_Gun_Luger.description>
+  <AL_Gun_Luger.tools.0.label>grip</AL_Gun_Luger.tools.0.label>
+  <AL_Gun_Luger.tools.1.label>barrel</AL_Gun_Luger.tools.1.label>
+
+
+</LanguageData>
