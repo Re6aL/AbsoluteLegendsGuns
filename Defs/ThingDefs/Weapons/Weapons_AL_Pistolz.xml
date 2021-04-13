@@ -145,8 +145,8 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>AL_Gun_Makar</defName>
-    <label>makarov pistol</label>
-    <description>The Makarov pistol. Andryukha, pack your horses, we may have a criminal.</description>
+    <label>Makarov pistol</label>
+    <description>The Makarov pistol. Andryukha, pack your horses! we may have a criminal!</description>
     <graphicData>
       <texPath>Things/Weapons/MakarovPistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -208,7 +208,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>AL_Gun_Glock</defName>
-    <label>fast pistol</label>
+    <label>Fast pistol</label>
     <description>Quick and light. Not much power but the speed of 3 shot burst fire can save you some life.</description>
     <graphicData>
       <texPath>Things/Weapons/Glock</texPath>
@@ -272,7 +272,7 @@
 
  <ThingDef ParentName="BaseMakeableGun">
     <defName>AL_Gun_ColtPython</defName>
-    <label>python handgun</label>
+    <label>Python handgun</label>
     <description>The Colt Python, a .357 Magnum caliber revolver. Sometimes referred to as a "Combat Magnum". It is intended for the premium revolver market segment.</description>
     <graphicData>
       <texPath>Things/Weapons/Python</texPath>
