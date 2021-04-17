@@ -5,29 +5,30 @@
 <url>https://github.com/Re6aL/AbsoluteLegendsGuns</url>
 
 	<supportedVersions>
-		<li>1.0</li>
 		<li>1.1</li>
 		<li>1.2</li>
 	</supportedVersions>
 	<packageId>Absolute.Legends.Gunz</packageId>
-<description>Abso-Lutely legendary pistols
+<description>Combat Extended patch now integrated. If youre using ModManager to make local copy - make sure CE packageid is CETeam.CombatExtended (delete "_copy") or patch wont work. I recommend using CE Github version - they update it daily.
+As much as i tested everything works fine.
 
-Introduces 6 RimWorld stylized Abso-Lutely must-have guns which are based on something you may know:
+So... 6 RimWorld pistols, some are good use in early game, but GOLDEN PISTOL - is something you Absolutely want when you have nowhere to store all the gold in mid/late game.
 
-Desert Bird - long lost Desert Eagle which is only found in big-ass mods which overhaul the game too much (and I end up not using them).
+Desert Bird pistol- Desert Eagle which is my all time favourite.
+Führer's Luger - Luger 45 (for your psycho warden pawn).
+Colt Python - Heavy and loud as F***
+Fast Glock pistol - basically Glock ("VWE Quickdraw" is balance breaking IMHO, so i made my own version), still it's fast and shoots 3 burst shots.
+Makarov pistol - most accessible, it cost less work and stuff.
+Desert Bird's Gold - well its just a gun made out of Gold. its freakin AWESOME
 
-Führers handgun - based on Luger 45 (for all your execution needs)
-
-Python handgun (Fat Snake) - based on Colt Python with magnum bullets. Loud as F***
-
-Fast pistol - based on Glock 17 (i dont like the VWE Quickdraw version because with CE it is too deadly) it is fast and light.
-
-Makarov pistol - based on Makarov pistol. Small and light pistol from ussr
-
-Golden Bird - well its just a gun made from Gold. its freakin awesome
-
-Any suggestions are highly appreciated. Actually I am a graphic designer and not a coder. This is my first own mod, it couldnt be possible if i didnt look into others mods code, so basically all the weapon mods creators must get a shoutout here. Weapons code are heavilly inspired by Chicken Plucker, original Combat Extended mods creators. Thank you if you read this!
-
-This mod was meant to be CE only but later i did split it into Vanilla version and CE Patch.
+I am a graphic designer and not a coder. This is my first own mod, it couldnt be possible if i didnt look into others mods code, so basically all the weapon mod creators must get a shoutout here. Modding is cool!
 </description>
+<loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>XeoNovaDan.ProperShotguns</li>
+    <li>swedishmask.ProperShotgunsPatch</li>
+    <li>CETeam.CombatExtended</li>
+    <li>VanillaExpanded.VWE</li>
+  </loadAfter>
 </ModMetaData>

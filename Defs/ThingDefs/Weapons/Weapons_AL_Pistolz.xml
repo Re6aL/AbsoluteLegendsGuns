@@ -5,12 +5,13 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>AL_Gun_DesertEagle</defName>
-    <label>Desert Bird handgun</label>
-    <description>The Desert Eagle (sometimes shortened into the Deagle) is a semi-automatic handgun notable for chambering the largest centerfire cartridge of any magazine-fed, self-loading pistol. It is also (according to most sources) the most powerful magazine-fed semi-automatic commercial handgun, by virtue of the muzzle energy it can generate.</description>
+    <label>Desert Bird pistol</label>
+    <description>The Desert Eagle - long story short: it is so powerful that i am not going to describe it. I just refuse. Not gonna tell you, you know better than me.</description>
     <graphicData>
       <texPath>Things/Weapons/DesertEagle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconScale>1.4</uiIconScale>
     <soundInteract>Interact_AL_Deagle</soundInteract>
     <recipeMaker>
       <researchPrerequisite>BlowbackOperation</researchPrerequisite>
@@ -31,7 +32,7 @@
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>30</Steel>
+      <Steel>50</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
@@ -71,12 +72,13 @@
 
   <ThingDef ParentName="BaseMakeableGun">
     <defName>AL_Gun_DesertEagleGold</defName>
-    <label>Golden Bird handgun</label>
-    <description>The Golden Desert Eagle. Rare and Rich. Gives Incredible style bonus to kills. Slightly better in most aspects. (mod dev: I will try to make mood buff to its owner because of awesomeness this item accumulates)</description>
+    <label>Desert Bird's Gold</label>
+    <description>Golden Desert Eagle. Very rare and very Rich. Gives Incredible style bonus to kills. Slightly better in all aspects. (Яебал: I want but I lack coding knowledge to add mood buff to pawn with this gun equipped because of awesomeness this item accumulates, help)</description>
     <graphicData>
       <texPath>Things/Weapons/DesertEagleGold</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconScale>1.4</uiIconScale>
     <soundInteract>Interact_AL_Deagle</soundInteract>
     <recipeMaker>
       <researchPrerequisite>GasOperation</researchPrerequisite>
@@ -89,10 +91,10 @@
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <weaponTags>
-      <li>GunHeavy</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9000</WorkToMake>
+      <WorkToMake>6500</WorkToMake>
       <Mass>1.5</Mass>
       <AccuracyTouch>0.8</AccuracyTouch>
       <AccuracyShort>0.74</AccuracyShort>
@@ -104,8 +106,8 @@
           <li>ExoticMisc</li>
     </tradeTags>
     <costList>
-      <Gold>20</Gold>
-      <Steel>30</Steel>
+      <Gold>3</Gold>
+      <Steel>15</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
@@ -151,6 +153,7 @@
       <texPath>Things/Weapons/MakarovPistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconScale>1.5</uiIconScale>
     <soundInteract>Interact_AL_Makarov</soundInteract>
     <recipeMaker>
       <researchPrerequisite>BlowbackOperation</researchPrerequisite>
@@ -158,9 +161,12 @@
         <Crafting>3</Crafting>
       </skillRequirements>
     </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+    </weaponTags>
     <statBases>
-      <WorkToMake>5000</WorkToMake>
-      <Mass>1.2</Mass>
+      <WorkToMake>4500</WorkToMake>
+      <Mass>1.1</Mass>
       <AccuracyTouch>0.84</AccuracyTouch>
       <AccuracyShort>0.72</AccuracyShort>
       <AccuracyMedium>0.40</AccuracyMedium>
@@ -169,7 +175,7 @@
     </statBases>
     <costList>
       <Steel>30</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -208,12 +214,13 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>AL_Gun_Glock</defName>
-    <label>Fast pistol</label>
-    <description>Quick and light. Not much power but the speed of 3 shot burst fire can save you some life.</description>
+    <label>Fast Glock pistol</label>
+    <description>Quick and light. Not much single power but 3 shot bursts are pretty deadly.</description>
     <graphicData>
       <texPath>Things/Weapons/Glock</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconScale>1.5</uiIconScale>
     <soundInteract>Interact_AL_Glock</soundInteract>
     <recipeMaker>
       <researchPrerequisite>BlowbackOperation</researchPrerequisite>
@@ -221,8 +228,11 @@
         <Crafting>4</Crafting>
       </skillRequirements>
     </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+    </weaponTags>
     <statBases>
-      <WorkToMake>5000</WorkToMake>
+      <WorkToMake>5200</WorkToMake>
       <Mass>1.2</Mass>
       <AccuracyTouch>0.84</AccuracyTouch>
       <AccuracyShort>0.73</AccuracyShort>
@@ -253,7 +263,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
+        <power>7</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -262,7 +272,7 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>9</power>
+        <power>7</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
@@ -272,16 +282,17 @@
 
  <ThingDef ParentName="BaseMakeableGun">
     <defName>AL_Gun_ColtPython</defName>
-    <label>Python handgun</label>
-    <description>The Colt Python, a .357 Magnum caliber revolver. Sometimes referred to as a "Combat Magnum". It is intended for the premium revolver market segment.</description>
+    <label>Colt Python</label>
+    <description>A "Combat Magnum". Powerful and.. it's heavy dude. You can bash someones skull if you're out of bullets.</description>
     <graphicData>
       <texPath>Things/Weapons/Python</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconScale>1.4</uiIconScale>
     <soundInteract>Interact_AL_ColtPython</soundInteract>
     <statBases>
-      <WorkToMake>4000</WorkToMake>
-      <Mass>1.4</Mass>
+      <WorkToMake>4300</WorkToMake>
+      <Mass>1.8</Mass>
       <AccuracyTouch>0.81</AccuracyTouch>
       <AccuracyShort>0.77</AccuracyShort>
       <AccuracyMedium>0.46</AccuracyMedium>
@@ -319,7 +330,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
+        <power>11</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -328,7 +339,7 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>9</power>
+        <power>11</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
@@ -338,12 +349,13 @@
 
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>AL_Gun_Luger</defName>
-    <label>führers handgun</label>
-    <description>Luger 45 is heavy. With difficult reloading mechanism and not very reliable shooting system. But Hell yea it cand send any living thing to Lucifer better than most.</description>
+    <label>Fuhrer's luger</label>
+    <description>Luger 45 has difficult reloading mechanism and not very reliable shooting system. But it just kills.</description>
     <graphicData>
       <texPath>Things/Weapons/Luger</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconScale>1.4</uiIconScale>
     <soundInteract>Interact_AL_Luger</soundInteract>
     <recipeMaker>
       <researchPrerequisite>BlowbackOperation</researchPrerequisite>
@@ -351,9 +363,13 @@
         <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
+    <weaponTags>
+      <li>SimpleGun</li>
+      <li>Revolver</li>
+    </weaponTags>
     <statBases>
-      <WorkToMake>7000</WorkToMake>
-      <Mass>1</Mass>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>1.7</Mass>
       <AccuracyTouch>0.8</AccuracyTouch>
       <AccuracyShort>0.74</AccuracyShort>
       <AccuracyMedium>0.4</AccuracyMedium>
@@ -362,7 +378,7 @@
     </statBases>
     <costList>
       <Steel>40</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -391,7 +407,7 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>9</power>
+        <power>8</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
