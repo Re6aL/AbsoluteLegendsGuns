@@ -229,8 +229,8 @@
                     </FireModes>
                     <weaponTags>
                         <li>CE_Sidearm</li>
-                        <li>CE_AI_Pistol</li>
                         <li>CE_OneHandedWeapon</li>
+                        <li>IndustrialGunAdvanced</li>
                     </weaponTags>
                 </li>
 
@@ -272,8 +272,8 @@
                     </FireModes>
                     <weaponTags>
                         <li>CE_Sidearm</li>
-                        <li>CE_AI_Pistol</li>
                         <li>CE_OneHandedWeapon</li>
+                        <li>IndustrialGunAdvanced</li>
                     </weaponTags>
                 </li>
 
@@ -323,6 +323,7 @@
                         <li>CE_Sidearm</li>
                         <li>CE_AI_Pistol</li>
                         <li>CE_OneHandedWeapon</li>
+                        <li>IndustrialGunAdvanced</li>
                     </weaponTags>
                 </li>
 
