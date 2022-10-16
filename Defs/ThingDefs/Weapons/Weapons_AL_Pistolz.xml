@@ -143,7 +143,7 @@
     </tools>
   </ThingDef>
 
-<!-- ==================== Makarov ==================== -->
+<!-- ==================== Makarov ==================== ->
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>AL_Gun_Makar</defName>
@@ -210,7 +210,7 @@
     </tools>
   </ThingDef>
 
-  <!-- ==================== Glock 17 ==================== -->
+  <!-- ==================== Glock 17 ==================== ->
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>AL_Gun_Glock</defName>
@@ -278,7 +278,7 @@
     </tools>
   </ThingDef>
 
-<!-- ==================== Python ==================== -->
+<!-- ==================== Python ==================== ->
 
  <ThingDef ParentName="BaseMakeableGun">
     <defName>AL_Gun_ColtPython</defName>

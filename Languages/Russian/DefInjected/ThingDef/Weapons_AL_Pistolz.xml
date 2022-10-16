@@ -17,7 +17,7 @@
   <AL_Gun_DesertEagleGold.tools.1.label>barrel</AL_Gun_DesertEagleGold.tools.1.label>
 
 
-  <!-- Makarov -->
+  <!-- Makarov ->
 
   <AL_Gun_Makar.label>макар</AL_Gun_Makar.label>
   <AL_Gun_Makar.description>Андрюха, у нас труп! Возможно, криминал! По коням!</AL_Gun_Makar.description>
@@ -25,7 +25,7 @@
   <AL_Gun_Makar.tools.1.label>barrel</AL_Gun_Makar.tools.1.label>
 
 
-  <!-- Glock 17 -->
+  <!- Glock 17 ->
 
   <AL_Gun_Glock.label>быстрый глок</AL_Gun_Glock.label>
   <AL_Gun_Glock.description>Тупа Глок. Можно стрелять очередями по три патрона: тяу тяу тяу!</AL_Gun_Glock.description>
@@ -33,7 +33,7 @@
   <AL_Gun_Glock.tools.1.label>barrel</AL_Gun_Glock.tools.1.label>
 
 
-  <!-- Python -->
+  <!- Python ->
 
   <AL_Gun_ColtPython.label>кольт питон</AL_Gun_ColtPython.label>
   <AL_Gun_ColtPython.description>Магнум, тяжелый на столько что его можно использовать как молоток. Серьёзно, он опасен в ближнем бою. А ещё он громкий как тварь.</AL_Gun_ColtPython.description>
@@ -41,12 +41,12 @@
   <AL_Gun_ColtPython.tools.1.label>barrel</AL_Gun_ColtPython.tools.1.label>
 
 
-  <!-- Luger -->
+  <!- Luger -->
 
   <AL_Gun_Luger.label>люгер для фюрера</AL_Gun_Luger.label>
   <AL_Gun_Luger.description>Перезаряжать Люгер 45 дико неудобно, но стрелять из него - одно удовольствие.</AL_Gun_Luger.description>
   <AL_Gun_Luger.tools.0.label>grip</AL_Gun_Luger.tools.0.label>
   <AL_Gun_Luger.tools.1.label>barrel</AL_Gun_Luger.tools.1.label>
-
+  
 
 </LanguageData>

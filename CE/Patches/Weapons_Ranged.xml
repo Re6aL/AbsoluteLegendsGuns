@@ -9,7 +9,7 @@
         <match Class="PatchOperationSequence">
             <operations>
 
-                <!--===== TOOLS FOR THE TOOL GOD =====-->
+                <!--===== TOOLS FOR THE TOOL GOD =====->
                 <li Class="PatchOperationReplace">
                     <xpath>
 				    /Defs/ThingDef[	defName = "AL_Gun_ColtPython" ]/tools
@@ -39,7 +39,7 @@
                             </li>
                         </tools>
                     </value>
-                </li>
+                </li-->
 
                 <li Class="PatchOperationReplace">
                     <xpath>
@@ -74,7 +74,7 @@
                     </value>
                 </li>
 
-                <li Class="PatchOperationReplace">
+                <!--li Class="PatchOperationReplace">
                     <xpath>
 				    /Defs/ThingDef[	defName = "AL_Gun_Makar" or
                     defName = "AL_Gun_Glock" ]/tools
@@ -106,7 +106,7 @@
                     </value>
                 </li>
 
-                <!--===== Colt Python Magnum =====-->
+                <!-===== Colt Python Magnum =====->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>AL_Gun_ColtPython</defName>
                     <statBases>
@@ -151,7 +151,7 @@
                     </weaponTags>
                 </li>
 
-                <!--===== Luger 45 Fuhrers pistol =====-->
+                <!-===== Luger 45 Fuhrers pistol =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>AL_Gun_Luger</defName>
                     <statBases>
@@ -277,7 +277,7 @@
                     </weaponTags>
                 </li>
 
-                <!--===== Fast Glock Pistol =====-->
+                <!--===== Fast Glock Pistol =====->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>AL_Gun_Glock</defName>
                     <statBases>
@@ -327,7 +327,7 @@
                     </weaponTags>
                 </li>
 
-                <!--===== Makarov pistol =====-->
+                <!-===== Makarov pistol =====->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>AL_Gun_Makar</defName>
                     <statBases>
@@ -368,7 +368,7 @@
                         <li>CE_OneHandedWeapon</li>
                         <li>SimpleGun</li>
                     </weaponTags>
-                </li>
+                </li-->
 
             </operations>
         </match>
