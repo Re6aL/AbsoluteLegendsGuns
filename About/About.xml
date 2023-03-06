@@ -5,24 +5,11 @@
 <url>https://github.com/Re6aL/AbsoluteLegendsGuns</url>
 
 	<supportedVersions>
-		<li>1.1</li>
-		<li>1.2</li>
-        <li>1.3</li>
+        <li>1.4</li>
 	</supportedVersions>
 	<packageId>Absolute.Legends.Gunz</packageId>
-<description>Combat Extended patch now integrated. If youre using ModManager to make local copy - make sure CE packageid is CETeam.CombatExtended (delete "_copy") or patch wont work. I recommend using CE Github version - they update it daily.
-As much as i tested everything works fine.
-
-So... 6 RimWorld pistols, some are good use in early game, but GOLDEN PISTOL - is something you Absolutely want when you have nowhere to store all the gold in mid/late game.
-
-Desert Bird pistol- Desert Eagle which is my all time favourite.
-Führer's Luger - Luger 45 (for your psycho warden pawn).
-Colt Python - Heavy and loud as F***
-Fast Glock pistol - basically Glock ("VWE Quickdraw" is balance breaking IMHO, so i made my own version), still it's fast and shoots 3 burst shots.
-Makarov pistol - most accessible, it cost less work and stuff.
-Desert Bird's Gold - well its just a gun made out of Gold. its freakin AWESOME
-
-I am a graphic designer and not a coder. This is my first own mod, it couldnt be possible if i didnt look into others mods code, so basically all the weapon mod creators must get a shoutout here. Modding is cool!
+<description>Desert Eagle and Luger.
+Combat Extended patch now integrated. If used with CE - recommended use with workshop version of CE.
 </description>
 <loadAfter>
     <li>Ludeon.RimWorld</li>
