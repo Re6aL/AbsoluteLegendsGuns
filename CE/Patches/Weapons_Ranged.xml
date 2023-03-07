@@ -54,10 +54,10 @@
                                 <capacities>
                                     <li>Blunt</li>
                                 </capacities>
-                                <power>5</power>
+                                <power>2</power>
                                 <cooldownTime>1.54</cooldownTime>
                                 <chanceFactor>1.5</chanceFactor>
-                                <armorPenetrationBlunt>1.5</armorPenetrationBlunt>
+                                <armorPenetrationBlunt>0.6</armorPenetrationBlunt>
                                 <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
                             </li>
                             <li Class="CombatExtended.ToolCE">
@@ -172,7 +172,7 @@
                         <hasStandardCommand>true</hasStandardCommand>
                         <defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
                         <warmupTime>0.6</warmupTime>
-                        <range>14</range>
+                        <range>12</range>
                         <soundCast>Shot_AL_Luger</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
@@ -191,8 +191,7 @@
                         <li>CE_OneHandedWeapon</li>
                     </weaponTags>
                 </li>
-
-                <!--===== Desert Eagle bird =====-->
+                <!--===== Desert Eagle =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>AL_Gun_DesertEagle</defName>
                     <statBases>
@@ -202,11 +201,11 @@
                         <ShotSpread>0.18</ShotSpread>
                         <SwayFactor>1.58</SwayFactor>
                         <Bulk>2.73</Bulk>
-                        <WorkToMake>7700</WorkToMake>
+                        <WorkToMake>9000</WorkToMake>
                     </statBases>
                     <costList>
                         <Steel>35</Steel>
-                        <Plasteel>1</Plasteel>
+                        <Plasteel>2</Plasteel>
                         <ComponentIndustrial>2</ComponentIndustrial>
                     </costList>
                     <Properties>
@@ -214,14 +213,14 @@
                         <hasStandardCommand>true</hasStandardCommand>
                         <defaultProjectile>Bullet_50AE_FMJ</defaultProjectile>
                         <warmupTime>0.6</warmupTime>
-                        <range>15</range>
+                        <range>14</range>
                         <soundCast>Shot_AL_Deagle</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                     </Properties>
                     <AmmoUser>
                         <magazineSize>7</magazineSize>
-                        <reloadTime>3.8</reloadTime>
+                        <reloadTime>4</reloadTime>
                         <ammoSet>AmmoSet_50AE</ammoSet>
                     </AmmoUser>
                     <FireModes>
@@ -234,17 +233,17 @@
                     </weaponTags>
                 </li>
 
-                <!--===== Desert Eagle Gold bird =====-->
+                <!--===== Desert Eagle Gold =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>AL_Gun_DesertEagleGold</defName>
                     <statBases>
                         <Mass>1.5</Mass>
                         <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
                         <SightsEfficiency>0.75</SightsEfficiency>
-                        <ShotSpread>0.15</ShotSpread>
+                        <ShotSpread>0.20</ShotSpread>
                         <SwayFactor>1.3</SwayFactor>
-                        <Bulk>2.6</Bulk>
-                        <WorkToMake>8700</WorkToMake>
+                        <Bulk>2.7</Bulk>
+                        <WorkToMake>10000</WorkToMake>
                     </statBases>
                     <costList>
                         <Steel>15</Steel>
@@ -256,8 +255,8 @@
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
                         <defaultProjectile>Bullet_50AE_FMJ</defaultProjectile>
-                        <warmupTime>0.6</warmupTime>
-                        <range>15</range>
+                        <warmupTime>0.7</warmupTime>
+                        <range>11</range>
                         <soundCast>Shot_AL_Deagle</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>10</muzzleFlashScale>

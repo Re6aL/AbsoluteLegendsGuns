@@ -5,7 +5,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>AL_Gun_DesertEagle</defName>
-    <label>Desert Bird pistol</label>
+    <label>Desert Eagle pistol</label>
     <description>The Desert Eagle - the most powerful and heavy pistol made mostly to show off, has wild power.</description>
     <graphicData>
       <texPath>Things/Weapons/DesertEagle</texPath>
@@ -131,6 +131,81 @@
           <li>Poke</li>
         </capacities>
         <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- ==================== Desert Eagle Gold ==================== -->
+
+  <ThingDef ParentName="BaseMakeableGun">
+    <defName>AL_Gun_DesertEagleGold</defName>
+    <label>Desert Eagle Gold pistol</label>
+    <description>Golden Desert Eagle. Very rare and very Rich. Gives Incredible style bonus to kills. Slightly better in all aspects. (Яебал: I want but I lack coding knowledge to add mood buff to pawn with this gun equipped because of awesomeness this item accumulates, help)</description>
+    <graphicData>
+      <texPath>Things/Weapons/DesertEagleGold</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.4</uiIconScale>
+    <soundInteract>Interact_AL_Deagle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>6500</WorkToMake>
+      <Mass>1.5</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.74</AccuracyShort>
+      <AccuracyMedium>0.46</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <RangedWeapon_Cooldown>1.15</RangedWeapon_Cooldown>
+    </statBases>
+    <tradeTags>
+          <li>ExoticMisc</li>
+    </tradeTags>
+    <costList>
+      <Gold>3</Gold>
+      <Steel>15</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AL_Bullet_50_Pistol</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>28.5</range>
+        <soundCast>Shot_AL_Deagle</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
