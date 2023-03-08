@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-<name>Absolute Legends Guns</name>
-<author>RE6AL</author>
-<url>https://github.com/Re6aL/AbsoluteLegendsGuns</url>
-
+    <name>Absolute Legends Guns</name>
+    <author>RE6AL</author>
+    <url>https://github.com/Re6aL/AbsoluteLegendsGuns</url>
 	<supportedVersions>
         <li>1.4</li>
 	</supportedVersions>
-	<packageId>Absolute.Legends.Gunz</packageId>
-<description>Desert Eagle and Luger.
-Combat Extended patch now integrated. If used with CE - recommended use with workshop version of CE.
-</description>
-<loadAfter>
-    <li>Ludeon.RimWorld</li>
-    <li>Ludeon.RimWorld.Royalty</li>
-    <li>XeoNovaDan.ProperShotguns</li>
-    <li>swedishmask.ProperShotgunsPatch</li>
+	<packageId>Absolute.Legends.Guns</packageId>
+    <description>Desert Eagle and Luger. Combat Extended patch integrated. If used with CE - recommended use with workshop version of CE. I made it mostly for CE.</description>
+    <loadAfter>
     <li>CETeam.CombatExtended</li>
     <li>VanillaExpanded.VWE</li>
   </loadAfter>
