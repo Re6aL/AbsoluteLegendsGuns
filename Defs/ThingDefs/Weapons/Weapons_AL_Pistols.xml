@@ -136,7 +136,7 @@
     </tools>
   </ThingDef>
 
-<!-- ==================== Desert Eagle Gold ==================== -->
+<!-- ==================== Desert Eagle Gold ==================== >
 
   <ThingDef ParentName="BaseMakeableGun">
     <defName>AL_Gun_DesertEagleGold</defName>
@@ -209,6 +209,6 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-  </ThingDef>
+  </ThingDef-->
 
 </Defs>

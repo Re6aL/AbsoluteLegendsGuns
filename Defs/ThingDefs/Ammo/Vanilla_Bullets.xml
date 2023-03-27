@@ -40,7 +40,7 @@
     </projectile>
   </ThingDef>
 
-<!-- ================ Python =============== -->
+<!-- ================ Python =============== ->
 
     <ThingDef ParentName="BaseBullet">
     <defName>AL_Bullet_357_Revolver</defName>
@@ -59,7 +59,7 @@
     </projectile>
   </ThingDef>
 
-<!-- ================ Makar =============== -->
+<!- ================ Makar =============== ->
 
     <ThingDef ParentName="BaseBullet">
     <defName>AL_Bullet_9MMMakarov</defName>
@@ -78,7 +78,7 @@
     </projectile>
   </ThingDef>
 
-<!-- ================ Glock =============== -->
+<!- ================ Glock =============== ->
 
   <ThingDef ParentName="BaseBullet">
     <defName>AL_Bullet_9MM_Pistol</defName>
@@ -95,6 +95,6 @@
     <armorPenetrationBase>0.34</armorPenetrationBase>
       <speed>60</speed>
     </projectile>
-  </ThingDef>  
+  </ThingDef-->  
   
 </Defs>

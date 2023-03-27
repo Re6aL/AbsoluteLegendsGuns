@@ -9,42 +9,9 @@
         <match Class="PatchOperationSequence">
             <operations>
 
-                <!--===== TOOLS FOR THE TOOL GOD =====->
-                <li Class="PatchOperationReplace">
-                    <xpath>
-				    /Defs/ThingDef[	defName = "AL_Gun_ColtPython" ]/tools
-                    </xpath>
-                    <value>
-                        <tools>
-                            <li Class="CombatExtended.ToolCE">
-                                <label>grip</label>
-                                <capacities>
-                                    <li>Blunt</li>
-                                </capacities>
-                                <power>8</power>
-                                <cooldownTime>1.54</cooldownTime>
-                                <chanceFactor>1.5</chanceFactor>
-                                <armorPenetrationBlunt>2.0</armorPenetrationBlunt>
-                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
-                            </li>
-                            <li Class="CombatExtended.ToolCE">
-                                <label>muzzle</label>
-                                <capacities>
-                                    <li>Poke</li>
-                                </capacities>
-                                <power>2</power>
-                                <cooldownTime>1.54</cooldownTime>
-                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
-                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
-                            </li>
-                        </tools>
-                    </value>
-                </li-->
-
                 <li Class="PatchOperationReplace">
                     <xpath>
 				    /Defs/ThingDef[ defName = "AL_Gun_Luger" or
-                    defName = "AL_Gun_DesertEagleGold" or
                     defName = "AL_Gun_DesertEagle" ]/tools
                     </xpath>
                     <value>
@@ -74,84 +41,7 @@
                     </value>
                 </li>
 
-                <!--li Class="PatchOperationReplace">
-                    <xpath>
-				    /Defs/ThingDef[	defName = "AL_Gun_Makar" or
-                    defName = "AL_Gun_Glock" ]/tools
-                    </xpath>
-                    <value>
-                        <tools>
-                            <li Class="CombatExtended.ToolCE">
-                                <label>grip</label>
-                                <capacities>
-                                    <li>Blunt</li>
-                                </capacities>
-                                <power>4</power>
-                                <cooldownTime>1.54</cooldownTime>
-                                <chanceFactor>1.5</chanceFactor>
-                                <armorPenetrationBlunt>1.0</armorPenetrationBlunt>
-                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
-                            </li>
-                            <li Class="CombatExtended.ToolCE">
-                                <label>muzzle</label>
-                                <capacities>
-                                    <li>Poke</li>
-                                </capacities>
-                                <power>2</power>
-                                <cooldownTime>1.54</cooldownTime>
-                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
-                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
-                            </li>
-                        </tools>
-                    </value>
-                </li>
-
-                <!-===== Colt Python Magnum =====->
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>AL_Gun_ColtPython</defName>
-                    <statBases>
-                        <Mass>1.89</Mass>
-                        <RangedWeapon_Cooldown>0.43</RangedWeapon_Cooldown>
-                        <SightsEfficiency>0.7</SightsEfficiency>
-                        <ShotSpread>0.16</ShotSpread>
-                        <SwayFactor>1.4</SwayFactor>
-                        <Bulk>2.91</Bulk>
-                        <WorkToMake>8000</WorkToMake>
-                    </statBases>
-                    <costList>
-                        <Steel>30</Steel>
-                        <Plasteel>1</Plasteel>
-                        <ComponentIndustrial>2</ComponentIndustrial>
-                    </costList>
-                    <Properties>
-                        <recoilAmount>2.15</recoilAmount>
-                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                        <hasStandardCommand>true</hasStandardCommand>
-                        <defaultProjectile>Bullet_357Magnum_FMJ</defaultProjectile>
-                        <warmupTime>0.8</warmupTime>
-                        <range>15</range>
-                        <soundCast>Shot_AL_ColtPython</soundCast>
-                        <soundCastTail>GunTail_Light</soundCastTail>
-                        <muzzleFlashScale>9</muzzleFlashScale>
-                        <recoilPattern>Regular</recoilPattern>
-                    </Properties>
-                    <AmmoUser>
-                        <magazineSize>6</magazineSize>
-                        <reloadOneAtATime>true</reloadOneAtATime>
-                        <reloadTime>0.9</reloadTime>
-                        <ammoSet>AmmoSet_357Magnum</ammoSet>
-                    </AmmoUser>
-                    <FireModes>
-                        <aiUseBurstMode>FALSE</aiUseBurstMode>
-                        <aiAimMode>AimedShot</aiAimMode>
-                    </FireModes>
-                    <weaponTags>
-                        <li>CE_Sidearm</li>
-                        <li>CE_AI_Pistol</li>
-                    </weaponTags>
-                </li>
-
-                <!-===== Luger 45 Fuhrers pistol =====-->
+                <!--===== Luger 45 Fuhrers pistol =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>AL_Gun_Luger</defName>
                     <statBases>
@@ -233,7 +123,39 @@
                     </weaponTags>
                 </li>
 
-                <!--===== Desert Eagle Gold =====-->
+                <!--===== TOOLS FOR THE TOOL GOD =====->
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                    /Defs/ThingDef[ defName = "AL_Gun_ColtPython" ]/tools
+                    </xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>grip</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>8</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>2.0</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>muzzle</label>
+                                <capacities>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li-->
+
+                <!--===== Desert Eagle Gold =====->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>AL_Gun_DesertEagleGold</defName>
                     <statBases>
@@ -276,7 +198,7 @@
                     </weaponTags>
                 </li>
 
-                <!--===== Fast Glock Pistol =====->
+                <!-===== Fast Glock Pistol =====->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>AL_Gun_Glock</defName>
                     <statBases>
@@ -366,6 +288,83 @@
                         <li>CE_AI_Pistol</li>
                         <li>CE_OneHandedWeapon</li>
                         <li>SimpleGun</li>
+                    </weaponTags>
+                </li-->
+
+                <!--li Class="PatchOperationReplace">
+                    <xpath>
+                    /Defs/ThingDef[ defName = "AL_Gun_Makar" or
+                    defName = "AL_Gun_Glock" ]/tools
+                    </xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>grip</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>4</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>1.0</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>muzzle</label>
+                                <capacities>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+
+                <!-===== Colt Python Magnum =====->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>AL_Gun_ColtPython</defName>
+                    <statBases>
+                        <Mass>1.89</Mass>
+                        <RangedWeapon_Cooldown>0.43</RangedWeapon_Cooldown>
+                        <SightsEfficiency>0.7</SightsEfficiency>
+                        <ShotSpread>0.16</ShotSpread>
+                        <SwayFactor>1.4</SwayFactor>
+                        <Bulk>2.91</Bulk>
+                        <WorkToMake>8000</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Steel>30</Steel>
+                        <Plasteel>1</Plasteel>
+                        <ComponentIndustrial>2</ComponentIndustrial>
+                    </costList>
+                    <Properties>
+                        <recoilAmount>2.15</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_357Magnum_FMJ</defaultProjectile>
+                        <warmupTime>0.8</warmupTime>
+                        <range>15</range>
+                        <soundCast>Shot_AL_ColtPython</soundCast>
+                        <soundCastTail>GunTail_Light</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                        <recoilPattern>Regular</recoilPattern>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>6</magazineSize>
+                        <reloadOneAtATime>true</reloadOneAtATime>
+                        <reloadTime>0.9</reloadTime>
+                        <ammoSet>AmmoSet_357Magnum</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiUseBurstMode>FALSE</aiUseBurstMode>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <weaponTags>
+                        <li>CE_Sidearm</li>
+                        <li>CE_AI_Pistol</li>
                     </weaponTags>
                 </li-->
 

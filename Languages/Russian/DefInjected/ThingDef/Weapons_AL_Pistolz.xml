@@ -9,7 +9,7 @@
   <AL_Gun_DesertEagle.tools.1.label>barrel</AL_Gun_DesertEagle.tools.1.label>
 
 
-  <!-- Desert Eagle Gold -->
+  <!-- Desert Eagle Gold ->
 
   <AL_Gun_DesertEagleGold.label>золотой пустынный орёл</AL_Gun_DesertEagleGold.label>
   <AL_Gun_DesertEagleGold.description>Пустынный Орёл из золота, что может быть круче?? Это лакшери, это стиль, это успех. Любимое оружие африканских наркобаронов.</AL_Gun_DesertEagleGold.description>
@@ -17,7 +17,7 @@
   <AL_Gun_DesertEagleGold.tools.1.label>barrel</AL_Gun_DesertEagleGold.tools.1.label>
 
 
-  <!-- Makarov ->
+  <!- Makarov ->
 
   <AL_Gun_Makar.label>макар</AL_Gun_Makar.label>
   <AL_Gun_Makar.description>Андрюха, у нас труп! Возможно, криминал! По коням!</AL_Gun_Makar.description>
